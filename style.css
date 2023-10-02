@@ -1,0 +1,569 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #2294ed;
+  --secondaryblue: #4dadf7;
+  --primary-text-color: #183b54;
+  --seconday-text-color: #8ba6c0;
+  ---btn-clr: #2294ed;
+  --hover-linl: #1c5683;
+  --padding-inline: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--seconday-text-color);
+  line-height: 1.3rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.banner-text {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 16px 20px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.banner {
+  background-color: #4dadf7;
+  background-image: url(/Assets/asset\ 32.png);
+  background-size: 300px;
+}
+
+.mainnav {
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.mainnav img {
+  width: auto;
+  height: 31px;
+  display: inline;
+  justify-content: flex-start;
+  float: left;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.mainnav li a {
+  margin: 7px 10px;
+  font-size: 16px;
+}
+
+.mainnav li {
+  justify-content: flex-end;
+}
+.logo-text {
+  font-size: 14px;
+  color: #183b56;
+  padding: 8px 16px 8px 15px;
+  background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af982d4779b5a83a3802100_become-a-teste.svg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 151px 33px;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.primary-button span {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: -4px;
+  transition: ease-out 0.3s;
+}
+
+.primary-button span:hover {
+  background-color: var(--hover-linl);
+}
+
+.secondary-button span {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 12px 24px;
+  border-radius: 6px;
+  transition: ease-out 0.3s;
+}
+
+.secondary-button span:hover {
+  border: 1px solid #2294ed;
+  color: #2294ed;
+}
+
+.hover-link:hover {
+  color: var(---btn-clr);
+}
+/* Hero Section Starts Here  */
+
+.hero {
+  margin-top: 25px;
+}
+
+.hero-image img {
+  width: 586px;
+}
+
+.written {
+  justify-content: center;
+  align-items: self-start;
+  flex-direction: column;
+}
+
+.written h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.written p {
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #577592;
+  margin-right: 135px;
+  line-height: 1.5;
+}
+
+.written a span {
+  margin-top: 20px;
+  padding: 16px 50px;
+  border-radius: 6px;
+}
+
+.credit-card p {
+  color: #577592;
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.credit-card {
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+/* COMPANY STARTS HERE */
+
+.company-intro p {
+  text-align: center;
+  color: #183b56;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+
+.company-logo {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.company-logo img {
+  height: 46px;
+  margin-bottom: 70px;
+}
+
+/* Written Section Statts Shere  */
+
+.written-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.written-section h2 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.marg {
+  margin-bottom: 1000px;
+}
+
+/* CARS SECTION STARTS HERE  */
+
+.cards {
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+.card {
+  max-width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.cards p {
+  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.feature {
+  background-image: url(/Assets/asset\ 34.svg);
+  background-repeat: no-repeat;
+  /* align-items: center; */
+  background-position: center;
+  background-size: contain;
+}
+
+/* Main Section Starts Here  */
+
+.big-feature {
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.left-section img {
+  width: 550px;
+}
+
+.small-text-bold {
+  margin-bottom: 15px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.info h2 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.right-section {
+  margin-top: 50px;
+}
+.info {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.info p {
+  font-size: 21px;
+  color: #577592;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.new-intro img {
+  max-height: 30px;
+  margin-bottom: 10px;
+}
+
+.new-name {
+  background-image: url(/Assets/asset\ 35.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 64px;
+  background-attachment: scroll;
+}
+
+.author img {
+  max-height: 48px;
+}
+
+.author {
+  display: flex;
+}
+.aut-img {
+  justify-content: flex-start;
+}
+
+.author-intro {
+  margin-left: 10px;
+}
+
+.author-intro p {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: black;
+  margin-bottom: -5px;
+}
+
+.small-text {
+  font-size: 13px;
+  line-height: 18px;
+  columns: #577592;
+}
+
+.info2 {
+  margin-right: 80px;
+  margin-right: 80px;
+}
+
+.blogs {
+  margin-top: 30px;
+}
+
+/* Blogs Part CSS Starts Here  */
+.article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.post {
+  width: 24%;
+  min-height: 350px;
+  background-color: black;
+  color: wheat;
+  margin: 10px;
+  position: relative;
+}
+
+.post h3 {
+  font-weight: 500;
+  line-height: 1.4;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: white;
+}
+
+/* Here New Section CSS Starts  */
+
+.new {
+  height: 600px;
+  background-color: #183b54;
+  margin-bottom: 70px;
+}
+.left-new {
+  height: 600px;
+  width: 50%;
+  color: white;
+  padding-top: 50px;
+}
+
+.right-new {
+  height: 600px;
+  width: 50%;
+  background: url(/Assets/asset\ 40.png);
+  background-size: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.right-new img {
+  height: 290px;
+  align-items: center;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+}
+
+.khatro {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  z-index: 5;
+}
+
+.khatro p {
+  font-size: 20px;
+  color: #183b56;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.litle {
+  font-size: 25px;
+  color: #8ba6c0;
+}
+
+.dollar {
+  color: #2294ed;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.left-new h2 {
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.new-text {
+  margin-bottom: 20px;
+}
+
+.left-new p {
+  color: white;
+  font-size: 21px;
+  line-height: 1.3;
+  margin-top: 32px;
+  font-weight: normal;
+}
+
+.new-list p {
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+}
+
+.new-list {
+  justify-content: space-between;
+  align-items: start;
+}
+
+.new-list li {
+  list-style-type: disc;
+  padding: 5px 0px;
+  color: #b9cde4;
+  font-size: 16px;
+  text-decoration-color: #b9cde4;
+  font-weight: lighter;
+}
+
+.left-list li a {
+  color: #b9cde4ed;
+  text-decoration: dashed;
+}
+
+.new-btn {
+  margin-top: 35px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.marg {
+  margin: 5px 10px;
+}
+
+.learn {
+  color: white;
+}
+
+.niche {
+  padding-top: 4px;
+}
+
+/* new Part Start Here  */
+
+.join-new {
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.join-heading h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.join-p p {
+  width: 450px;
+  line-height: 1.3;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.new-btn-of {
+  margin-bottom: 20px;
+  justify-content: center;
+  margin: 20px 50px;
+}
+
+.join {
+  /* height: 400px; */
+  margin-bottom: 20px;
+}
+
+.new-flex-cc {
+  font-size: 11px;
+  margin-top: -10px;
+  color: #577592;
+}
+
+footer {
+  background-color: #b9cde4;
+  /* height: 50px; */
+}
+
+.fo-links {
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.fo-links a {
+  padding: 20px 10px;
+  padding-left: -50px;
+}
+
+.social img {
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+footer {
+  margin-top: 50px;
+}
+.social {
+  justify-content: space-around;
+}
+
+.real-so {
+  justify-content: space-around;
+}
