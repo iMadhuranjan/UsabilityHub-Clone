@@ -1,4 +1,4 @@
-# UsabilityHub-Clone
+# UsabilityHub-Updated-Clone
 Clone of UsabilityHub.Com Using HTML &amp; CSS
 
 Here is the ScreenShot of usabilityHub.Com Clone Website. 
